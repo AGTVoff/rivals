@@ -1,0 +1,8 @@
+-- Instance: ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.battleaxe_ceruleanaxe_attack1
+-- Class: ModuleScript
+-- Decompiled with Potassium's decompiler.
+
+return function(p1, p2, p3) -- Line: 1
+    p1:CreateSound("rbxassetid://77594993345414", 0.875, 1 + 0.2 * math.random(), true, 5);
+    p1:CreateSound("rbxassetid://107162559513589", 0.375, 0.5 + 0.125 * math.random(), true, 5);
+end;

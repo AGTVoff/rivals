@@ -1,0 +1,230 @@
+-- Instance: StarterPlayer.StarterPlayerScripts.Modules.ClientReplicatedClasses.ClientDuel.ClientMap
+-- Class: ModuleScript
+-- Decompiled with Potassium's decompiler.
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage");
+local RunService = game:GetService("RunService");
+local Players = game:GetService("Players");
+local ReplicatedClass = require(ReplicatedStorage.Modules.ReplicatedClass);
+local Utility = require(ReplicatedStorage.Modules.Utility);
+require(ReplicatedStorage.Modules.Signal);
+local PlayerDataController = require(Players.LocalPlayer.PlayerScripts.Controllers.PlayerDataController);
+local u1 = {
+    Docks = { "rbxassetid://17813065011", 0.25, 0 },
+    Station = { "rbxassetid://17813065464", 0.25, 13 },
+    ["Big Station"] = { "rbxassetid://17813065464", 0.25, 13 },
+    Backrooms = { "rbxassetid://17813170797", 1, 0 },
+    Construction = { "rbxassetid://93752516938586", 1, 0 },
+    ["Big Backrooms"] = { "rbxassetid://17813170797", 1, 0 },
+    Onyx = { "rbxassetid://12099785239", 0.375, 0 },
+    ["Big Onyx"] = { "rbxassetid://12099785239", 0.375, 0 },
+    Splash = { "rbxassetid://18963688210", 0.75, 0 },
+    ["Big Splash"] = { "rbxassetid://18963688210", 0.75, 0 },
+    ["Zombie Tower"] = { "rbxassetid://90122406367653", 0.25, 0 },
+    Iceberg = { "rbxassetid://103004663415392", 0.25, 0 },
+    Village = { "rbxassetid://103004663415392", 0.25, 0 },
+    Studio = { "rbxassetid://90866007129930", 1, 0 },
+    Westown = { "rbxassetid://116999944271223", 1, 0 },
+    ["Gargoyle Tower"] = { "rbxassetid://90122406367653", 0.25, 0 }
+};
+local u2 = setmetatable({}, ReplicatedClass);
+u2.__index = u2;
+
+function u2.new(p3, p4) -- Line: 32
+    -- upvalues: ReplicatedClass (copy), u2 (copy)
+    local v5 = ReplicatedClass.new(p3);
+    local v6 = setmetatable(v5, u2);
+    v6.Name = p3.Name;
+    v6.Model = p3.Model;
+    v6.ClientDuel = p4;
+    v6.Data.IsHidden = nil;
+    v6.Data.LightingProfileOverride = nil;
+    v6._destroyed = false;
+    v6._connections = {};
+    v6._active_connections = {};
+    v6._seed = p3.Seed;
+    v6._on_hidden_update_callback = nil;
+    v6._textures_deleted = false;
+    v6._shadows_deleted = false;
+    v6._ambience_sound = nil;
+    v6._spectate_part = nil;
+    v6._lighting_objects_folder = v6.Model:FindFirstChild("LightingObjects");
+    v6._lighting_objects_folders = v6._lighting_objects_folder and (v6._lighting_objects_folder:GetChildren() or {}) or {};
+    v6:_Init();
+
+    return v6;
+end;
+
+function u2.IsRendered(p7) -- Line: 63
+    return p7.ClientDuel:IsRendered();
+end;
+
+function u2.GetSpectatePart(p8) -- Line: 67
+    if not p8._spectate_part then
+        p8._spectate_part = p8.Model:FindFirstChild("Spectate");
+    end;
+
+    return p8._spectate_part;
+end;
+
+function u2.GetScoreboardDisplay(p9) -- Line: 75
+    return nil;
+end;
+
+function u2.SetHidden(u10, p11) -- Line: 79
+    -- upvalues: PlayerDataController (copy), RunService (copy)
+    if p11 == u10:Get("IsHidden") then
+        return;
+    end;
+
+    for _, v in pairs(u10._active_connections) do
+        v:Disconnect();
+    end;
+
+    u10._active_connections = {};
+    u10:SetReplicate("IsHidden", p11);
+    local v12;
+
+    if p11 then
+        v12 = nil;
+    else
+        v12 = workspace or nil;
+    end;
+
+    u10.Model.Parent = v12;
+    u10:_UpdateAmbience();
+
+    if p11 then
+        return;
+    end;
+
+    local _active_connections = u10._active_connections;
+    local SettingChangedSignal = PlayerDataController:GetSettingChangedSignal("Textures Disabled");
+    table.insert(_active_connections, SettingChangedSignal:Connect(function() -- Line: 98
+        -- upvalues: u10 (copy)
+        u10:_UpdateTextures();
+    end));
+    local _active_connections2 = u10._active_connections;
+    local SettingChangedSignal2 = PlayerDataController:GetSettingChangedSignal("Shadows Disabled");
+    table.insert(_active_connections2, SettingChangedSignal2:Connect(function() -- Line: 102
+        -- upvalues: u10 (copy)
+        u10:_UpdateShadows();
+    end));
+    table.insert(u10._active_connections, RunService.RenderStepped:Connect(function(p13) -- Line: 106
+        -- upvalues: u10 (copy)
+        u10:Update(p13);
+    end));
+    u10:_UpdateTextures();
+    u10:_UpdateShadows();
+end;
+
+function u2.CreateSound(p14, ...) -- Line: 114
+    -- upvalues: Utility (copy)
+    if not p14:Get("IsHidden") then
+        return Utility:CreateSound(...);
+    end;
+end;
+
+function u2.Update(p15, p16) -- Line: 122
+end;
+
+function u2.Destroy(p17) -- Line: 126
+    -- upvalues: ReplicatedClass (copy)
+    p17._destroyed = true;
+
+    for _, v in pairs(p17._active_connections) do
+        v:Disconnect();
+    end;
+
+    for _, v in pairs(p17._connections) do
+        v:Disconnect();
+    end;
+
+    if p17._ambience_sound then
+        p17._ambience_sound:Destroy();
+    end;
+
+    ReplicatedClass.Destroy(p17);
+end;
+
+function u2._UpdateLightingObjects(p18) -- Line: 148
+    local v19 = p18:Get("LightingProfileOverride") or p18.Name;
+
+    for _, v in pairs(p18._lighting_objects_folders) do
+        local v20;
+
+        if v.Name == v19 then
+            v20 = p18._lighting_objects_folder or nil;
+        else
+            v20 = nil;
+        end;
+
+        v.Parent = v20;
+    end;
+end;
+
+function u2._UpdateHidden(u21) -- Line: 156
+    local success, result = pcall(function() -- Line: 157
+        -- upvalues: u21 (copy)
+        u21:SetHidden(not u21.ClientDuel:Get("IsSpectating"));
+    end);
+
+    if not success then
+        warn("Failed to hide/unhide map, error:", result);
+    end;
+end;
+
+function u2._UpdateAmbience(p22) -- Line: 166
+    -- upvalues: u1 (copy), Utility (copy)
+    if p22:Get("IsHidden") and p22._ambience_sound then
+        p22._ambience_sound:Destroy();
+        p22._ambience_sound = nil;
+
+        return;
+    end;
+
+    local v23 = not p22:Get("IsHidden") and (not p22._ambience_sound and u1[p22.Name]);
+
+    if v23 then
+        p22._ambience_sound = Utility:CreateSound(v23[1], v23[2], 1, script, true);
+        p22._ambience_sound.Looped = true;
+        p22._ambience_sound.TimePosition = v23[3];
+    end;
+end;
+
+function u2._UpdateShadows(p24) -- Line: 181
+    -- upvalues: PlayerDataController (copy), Utility (copy)
+    if p24._shadows_deleted or (p24:Get("IsHidden") or not PlayerDataController:GetSetting("Shadows Disabled")) then
+        return;
+    end;
+
+    p24._shadows_deleted = true;
+    Utility:DisableShadows(p24.Model);
+end;
+
+function u2._UpdateTextures(p25) -- Line: 190
+    -- upvalues: PlayerDataController (copy), Utility (copy)
+    if p25._textures_deleted or (p25:Get("IsHidden") or not PlayerDataController:GetSetting("Textures Disabled")) then
+        return;
+    end;
+
+    p25._textures_deleted = true;
+    Utility:DisableTextures(p25.Model);
+end;
+
+function u2._Init(u26) -- Line: 199
+    local _connections = u26._connections;
+    local DataChangedSignal = u26.ClientDuel:GetDataChangedSignal("IsSpectating");
+    table.insert(_connections, DataChangedSignal:Connect(function() -- Line: 200
+        -- upvalues: u26 (copy)
+        u26:_UpdateHidden();
+    end));
+    u26:GetDataChangedSignal("LightingProfileOverride"):Connect(function() -- Line: 204
+        -- upvalues: u26 (copy)
+        u26:_UpdateLightingObjects();
+    end);
+    u26:_UpdateHidden();
+    task.defer(u26._UpdateLightingObjects, u26);
+end;
+
+return u2;

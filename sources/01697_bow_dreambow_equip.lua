@@ -1,0 +1,13 @@
+-- Instance: ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_dreambow_equip
+-- Class: ModuleScript
+-- Decompiled with Potassium's decompiler.
+
+return function(p1, p2, p3) -- Line: 1
+    p1:CreateSound("rbxassetid://84897543898396", 0.5, 0.95 + 0.1 * math.random(), true, 10);
+
+    if not p1:_AnimationWait(script.Name, p3, 0.15 / p2) then
+        return;
+    end;
+
+    p1:CreateSound("rbxassetid://13682183816", 0.5, 0.95 + 0.1 * math.random(), true, 10);
+end;

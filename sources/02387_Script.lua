@@ -1,0 +1,3 @@
+-- Instance: StarterPlayer.StarterCharacterScripts.Animate.RefreshServer.Script
+-- Class: Script
+-- Empty bytecode

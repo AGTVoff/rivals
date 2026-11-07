@@ -1,0 +1,809 @@
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_shoot_aiming	sources/00001_shotgun_shotkey_shoot_aiming.lua	gun, shoot, aim
+Players .NebulaHub_049.PlayerScripts.Controllers.CameraController	sources/00002_CameraController.lua	camera, control
+Players .NebulaHub_049.PlayerScripts.Controllers.CameraController.CameraState	sources/00003_CameraState.lua	camera, control
+Players .NebulaHub_049.PlayerScripts.Controllers.PreloadController	sources/00004_PreloadController.lua	reload, control
+Players .NebulaHub_049.PlayerScripts.Controllers.SettingsController	sources/00005_SettingsController.lua	control, setting
+Players .NebulaHub_049.PlayerScripts.Controllers.ShootingRangeController	sources/00006_ShootingRangeController.lua	shoot, control
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Firework Gun	sources/00007_Firework_Gun.lua	gun, fire
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.CameraInput	sources/00008_CameraInput.lua	camera, input
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.CameraToggleStateController	sources/00009_CameraToggleStateController.lua	camera, control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.MouseLockController	sources/00010_MouseLockController.lua	camera, control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.TransparencyController	sources/00011_TransparencyController.lua	camera, control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraConfig	sources/00012_VehicleCameraConfig.lua	camera, config
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.ZoomController	sources/00013_ZoomController.lua	camera, control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.ZoomController.Popper	sources/00014_Popper.lua	camera, control
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_tommygun_reload	sources/00015_assaultrifle_tommygun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_tommygun_reload_empty	sources/00016_assaultrifle_tommygun_reload_empty.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_tommygun_shoot1	sources/00017_assaultrifle_tommygun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_tommygun_shoot_final	sources/00018_assaultrifle_tommygun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_hyperlaserguns_shoot1	sources/00019_energypistols_hyperlaserguns_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_pearlexogun_reload	sources/00020_exogun_pearlexogun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_pearlexogun_shoot1	sources/00021_exogun_pearlexogun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_reload	sources/00022_exogun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_repulsor_reload	sources/00023_exogun_repulsor_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_repulsor_shoot1	sources/00024_exogun_repulsor_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_shoot1	sources/00025_exogun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_singularity_reload	sources/00026_exogun_singularity_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_singularity_shoot1	sources/00027_exogun_singularity_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_bananaflare_shoot1	sources/00028_flaregun_bananaflare_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_dynamitegun_shoot1	sources/00029_flaregun_dynamitegun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_pocketvolcano_shoot1	sources/00030_flaregun_pocketvolcano_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_reload	sources/00031_flaregun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_shoot1	sources/00032_flaregun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_batblade_shoot1	sources/00033_gunblade_batblade_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_crudegunblade_shoot1	sources/00034_gunblade_crudegunblade_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_gunsaw_shoot1	sources/00035_gunblade_gunsaw_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_hypergunblade_shoot1	sources/00036_gunblade_hypergunblade_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_shoot1	sources/00037_gunblade_keyblade_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_shoot1	sources/00038_gunblade_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_blaster_shoot1	sources/00039_handgun_blaster_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_blaster_shoot_final	sources/00040_handgun_blaster_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_gingerbreadhandgun_shoot1	sources/00041_handgun_gingerbreadhandgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_gingerbreadhandgun_shoot_final	sources/00042_handgun_gingerbreadhandgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_gumballhandgun_shoot1	sources/00043_handgun_gumballhandgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_gumballhandgun_shoot_final	sources/00044_handgun_gumballhandgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_handgun_reload	sources/00045_handgun_handgun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_handgun_reload_empty	sources/00046_handgun_handgun_reload_empty.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_handgun_shoot1	sources/00047_handgun_handgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_handgun_shoot_final	sources/00048_handgun_handgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pixelhandgun_reload	sources/00049_handgun_pixelhandgun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pixelhandgun_reload_empty	sources/00050_handgun_pixelhandgun_reload_empty.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pixelhandgun_shoot1	sources/00051_handgun_pixelhandgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pixelhandgun_shoot_final	sources/00052_handgun_pixelhandgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pumpkinhandgun_shoot1	sources/00053_handgun_pumpkinhandgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pumpkinhandgun_shoot_final	sources/00054_handgun_pumpkinhandgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_reload	sources/00055_handgun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_reload_empty	sources/00056_handgun_reload_empty.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_sandgun_reload	sources/00057_handgun_sandgun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_sandgun_reload_empty	sources/00058_handgun_sandgun_reload_empty.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_sandgun_shoot1	sources/00059_handgun_sandgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_sandgun_shoot_final	sources/00060_handgun_sandgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_shoot1	sources/00061_handgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_shoot_final	sources/00062_handgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_stealthhandgun_shoot1	sources/00063_handgun_stealthhandgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_stealthhandgun_shoot_final	sources/00064_handgun_stealthhandgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_bobagun_shoot1	sources/00065_paintballgun_bobagun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_ketchupgun_shoot1	sources/00066_paintballgun_ketchupgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_lemonadegun_shoot1	sources/00067_paintballgun_lemonadegun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_paintballoongun_reload	sources/00068_paintballgun_paintballoongun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_paintballoongun_shoot1	sources/00069_paintballgun_paintballoongun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_reload	sources/00070_paintballgun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_shoot1	sources/00071_paintballgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_slimegun_shoot1	sources/00072_paintballgun_slimegun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_snowballgun_shoot1	sources/00073_paintballgun_snowballgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_reload	sources/00074_revolver_peppergun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_reload_empty	sources/00075_revolver_peppergun_reload_empty.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_shoot1	sources/00076_revolver_peppergun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_shoot_final	sources/00077_revolver_peppergun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_reload_empty_finish2	sources/00078_shotgun_balloonshotgun_reload_empty_finish2.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_reload_empty_start	sources/00079_shotgun_balloonshotgun_reload_empty_start.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_reload_finish	sources/00080_shotgun_balloonshotgun_reload_finish.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_reload_segment	sources/00081_shotgun_balloonshotgun_reload_segment.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_shoot1	sources/00082_shotgun_balloonshotgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_broomstick_shoot1	sources/00083_shotgun_broomstick_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_cactusshotgun_shoot1	sources/00084_shotgun_cactusshotgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_hypershotgun_shoot1	sources/00085_shotgun_hypershotgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_reload_empty_finish	sources/00086_shotgun_reload_empty_finish.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_reload_empty_finish2	sources/00087_shotgun_reload_empty_finish2.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_reload_empty_start	sources/00088_shotgun_reload_empty_start.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_reload_finish	sources/00089_shotgun_reload_finish.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_reload_segment	sources/00090_shotgun_reload_segment.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_reload_empty_finish2	sources/00091_shotgun_sharkshotgun_reload_empty_finish2.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_reload_empty_start	sources/00092_shotgun_sharkshotgun_reload_empty_start.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_reload_segment	sources/00093_shotgun_sharkshotgun_reload_segment.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_reload_segment_final	sources/00094_shotgun_sharkshotgun_reload_segment_final.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_reload_start	sources/00095_shotgun_sharkshotgun_reload_start.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_shoot1	sources/00096_shotgun_sharkshotgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shoot1	sources/00097_shotgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_reload_empty_start	sources/00098_shotgun_shotkey_reload_empty_start.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_reload_finish	sources/00099_shotgun_shotkey_reload_finish.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_reload_segment	sources/00100_shotgun_shotkey_reload_segment.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_shoot1	sources/00101_shotgun_shotkey_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_campfiresniper_reload	sources/00102_sniper_campfiresniper_reload.lua	fire, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_campfiresniper_reload_empty	sources/00103_sniper_campfiresniper_reload_empty.lua	fire, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_campfirespray_reload	sources/00104_spray_campfirespray_reload.lua	fire, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_campfirespray_reload_empty	sources/00105_spray_campfirespray_reload_empty.lua	fire, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_campfirespray_shoot1	sources/00106_spray_campfirespray_shoot1.lua	fire, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_nailgun_reload_empty	sources/00107_spray_nailgun_reload_empty.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_nailgun_shoot1	sources/00108_spray_nailgun_shoot1.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_nailgun_shoot_final	sources/00109_spray_nailgun_shoot_final.lua	gun, shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_moneygun_reload	sources/00110_uzi_moneygun_reload.lua	gun, reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_moneygun_shoot1	sources/00111_uzi_moneygun_shoot1.lua	gun, shoot
+StarterPlayer.StarterPlayerScripts.Controllers.CameraController	sources/00112_CameraController.lua	camera, control
+StarterPlayer.StarterPlayerScripts.Controllers.CameraController.CameraState	sources/00113_CameraState.lua	camera, control
+StarterPlayer.StarterPlayerScripts.Controllers.PreloadController	sources/00114_PreloadController.lua	reload, control
+StarterPlayer.StarterPlayerScripts.Controllers.SettingsController	sources/00115_SettingsController.lua	control, setting
+StarterPlayer.StarterPlayerScripts.Controllers.ShootingRangeController	sources/00116_ShootingRangeController.lua	shoot, control
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Firework Gun	sources/00117_Firework_Gun.lua	gun, fire
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraInput	sources/00118_CameraInput.lua	camera, input
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraToggleStateController	sources/00119_CameraToggleStateController.lua	camera, control
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.MouseLockController	sources/00120_MouseLockController.lua	camera, control
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.TransparencyController	sources/00121_TransparencyController.lua	camera, control
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraConfig	sources/00122_VehicleCameraConfig.lua	camera, config
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ZoomController	sources/00123_ZoomController.lua	camera, control
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ZoomController.Popper	sources/00124_Popper.lua	camera, control
+Players .NebulaHub_049.PlayerScripts.Controllers.ArcadeController	sources/00125_ArcadeController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.AudioController	sources/00126_AudioController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.BirthdayController	sources/00127_BirthdayController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.ChattingController	sources/00128_ChattingController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.ComplianceController	sources/00129_ComplianceController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.ControlsController	sources/00130_ControlsController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.CoreGuiController	sources/00131_CoreGuiController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.DebugController	sources/00132_DebugController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.DebugController.DebugState	sources/00133_DebugState.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.DuelController	sources/00134_DuelController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.EmoteController	sources/00135_EmoteController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.EmoteController.EmoteRenderLogic	sources/00136_EmoteRenderLogic.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.EmoteController.EmoteSoundLogic	sources/00137_EmoteSoundLogic.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.EnemyController	sources/00138_EnemyController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.EntityController	sources/00139_EntityController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.EventController	sources/00140_EventController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.FFlagController	sources/00141_FFlagController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.FighterController	sources/00142_FighterController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.FunctionsController	sources/00143_FunctionsController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.GameComponentsController	sources/00144_GameComponentsController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.LeaderboardController	sources/00145_LeaderboardController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.LightingController	sources/00146_LightingController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.LobbyController	sources/00147_LobbyController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.MatchmakingController	sources/00148_MatchmakingController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.MechanicsController	sources/00149_MechanicsController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.MiscellaneousController	sources/00150_MiscellaneousController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.MobileController	sources/00151_MobileController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.MonetizationController	sources/00152_MonetizationController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.MusicController	sources/00153_MusicController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.PartyController	sources/00154_PartyController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.PlayerDataController	sources/00155_PlayerDataController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.PlayerInteractionController	sources/00156_PlayerInteractionController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.PrivateServerController	sources/00157_PrivateServerController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.ProximityPromptController	sources/00158_ProximityPromptController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.QueuePadController	sources/00159_QueuePadController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.ScavengerHuntController	sources/00160_ScavengerHuntController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.SeasonController	sources/00161_SeasonController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.ShadyChickenController	sources/00162_ShadyChickenController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.ShopController	sources/00163_ShopController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.SocialController	sources/00164_SocialController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.SpectateController	sources/00165_SpectateController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.TestingController	sources/00166_TestingController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.TightropeController	sources/00167_TightropeController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.TimerController	sources/00168_TimerController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.UserInterfaceController	sources/00169_UserInterfaceController.lua	control
+Players .NebulaHub_049.PlayerScripts.Controllers.WrapController	sources/00170_WrapController.lua	control
+Players .NebulaHub_049.PlayerScripts.Modules.CameraSecurity	sources/00171_CameraSecurity.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.CameraShaker	sources/00172_CameraShaker.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.CameraShaker.CameraShakeInstance	sources/00173_CameraShakeInstance.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.CameraShaker.CameraShakePresets	sources/00174_CameraShakePresets.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.Functions.ClaimCheckpoint	sources/00175_ClaimCheckpoint.lua	aim
+Players .NebulaHub_049.PlayerScripts.Modules.Functions.PlayPreloadedAnimation	sources/00176_PlayPreloadedAnimation.lua	reload
+Players .NebulaHub_049.PlayerScripts.Modules.GameComponents.FireHitboxes	sources/00177_FireHitboxes.lua	fire
+Players .NebulaHub_049.PlayerScripts.Modules.GameComponents.UIInputFrames	sources/00178_UIInputFrames.lua	input
+Players .NebulaHub_049.PlayerScripts.Modules.ItemTypes.Gun	sources/00179_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.Items.Exogun	sources/00180_Exogun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.Items.Gunblade	sources/00181_Gunblade.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.Items.Minigun	sources/00182_Minigun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.Items.Paintball Gun	sources/00183_Paintball_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.LightingProfiles.Shooting Range	sources/00184_Shooting_Range.lua	shoot
+Players .NebulaHub_049.PlayerScripts.Modules.LobbyElements.LooseWeaponDisplays	sources/00185_LooseWeaponDisplays.lua	weapon
+Players .NebulaHub_049.PlayerScripts.Modules.LobbyElements.WeaponReleaseSchedule	sources/00186_WeaponReleaseSchedule.lua	weapon
+Players .NebulaHub_049.PlayerScripts.Modules.LooseWeaponDisplay	sources/00187_LooseWeaponDisplay.lua	weapon
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.PickWeapons	sources/00188_PickWeapons.lua	weapon
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.PickWeaponsList	sources/00189_PickWeaponsList.lua	weapon
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.PrivateServerControls	sources/00190_PrivateServerControls.lua	control
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.Settings	sources/00191_Settings.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.Settings.Inspect	sources/00192_Inspect.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.Settings.List	sources/00193_List.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.Settings.Profiles	sources/00194_Profiles.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Pages.Settings.Tabs	sources/00195_Tabs.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.PatchNotes.Weapons	sources/00196_Weapons.lua	weapon
+Players .NebulaHub_049.PlayerScripts.Modules.ReplicatedController	sources/00197_ReplicatedController.lua	control
+Players .NebulaHub_049.PlayerScripts.Modules.SettingSlot	sources/00198_SettingSlot.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Settings.Color	sources/00199_Color.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Settings.Confirm	sources/00200_Confirm.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Settings.Divider	sources/00201_Divider.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Settings.Dropdown	sources/00202_Dropdown.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Settings.Hotkey	sources/00203_Hotkey.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Settings.Slider	sources/00204_Slider.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.Settings.Toggle	sources/00205_Toggle.lua	setting
+Players .NebulaHub_049.PlayerScripts.Modules.ShootingRangeDisplay	sources/00206_ShootingRangeDisplay.lua	shoot
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.Equipment.Camera	sources/00207_Camera.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.Equipment.SpinControls	sources/00208_SpinControls.lua	control
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.MobileInputs	sources/00209_MobileInputs.lua	input
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.MobileInputs.Buttons	sources/00210_Buttons.lua	input
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.MobileInputs.Buttons.MobileButton	sources/00211_MobileButton.lua	input
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.MobileInputs.DoubleTap	sources/00212_DoubleTap.lua	input
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.MobileInputs.EditorLogic	sources/00213_EditorLogic.lua	input
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.MobileInputs.Joystick	sources/00214_Joystick.lua	input
+Players .NebulaHub_049.PlayerScripts.Modules.UserInterface.SwitchCameraPOV	sources/00215_SwitchCameraPOV.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Assault Rifle.Drum Gun	sources/00216_Drum_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseCrossbow.Campfire Crossbow	sources/00217_Campfire_Crossbow.lua	fire
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun	sources/00218_BaseFlareGun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Banana Flare	sources/00219_Banana_Flare.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun	sources/00220_Flare_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Dynamite Gun	sources/00221_Dynamite_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Glorious Flare Gun	sources/00222_Glorious_Flare_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Vexed Flare Gun	sources/00223_Vexed_Flare_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Wrapped Flare Gun	sources/00224_Wrapped_Flare_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseFlareGun.Pocket Volcano	sources/00225_Pocket_Volcano.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseRPG.Firework Launcher	sources/00226_Firework_Launcher.lua	fire
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.BaseRevolver.Peppergun	sources/00227_Peppergun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Energy Pistols.Hyperlaser Guns	sources/00228_Hyperlaser_Guns.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun	sources/00229_Exogun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Exogourd	sources/00230_Exogourd.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Glorious Exogun	sources/00231_Glorious_Exogun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Midnight Festive Exogun	sources/00232_Midnight_Festive_Exogun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Pearl Exogun	sources/00233_Pearl_Exogun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Ray Gun	sources/00234_Ray_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Repulsor	sources/00235_Repulsor.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Singularity	sources/00236_Singularity.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Exogun.Wondergun	sources/00237_Wondergun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Flashbang.Camera	sources/00238_Camera.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Grappler.Web Shooters	sources/00239_Web_Shooters.lua	shoot
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Gunblade	sources/00240_Gunblade.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Gunblade.Batblade	sources/00241_Batblade.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Gunblade.Boneblade	sources/00242_Boneblade.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Gunblade.Gunsaw	sources/00243_Gunsaw.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Gunblade.Keyblade	sources/00244_Keyblade.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Handgun	sources/00245_Handgun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Handgun.Blaster	sources/00246_Blaster.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Handgun.Gumball Handgun	sources/00247_Gumball_Handgun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Handgun.Hand Gun	sources/00248_Hand_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Handgun.Sandgun	sources/00249_Sandgun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun	sources/00250_Minigun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun.Fighter Jet	sources/00251_Fighter_Jet.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun.Glorious Minigun	sources/00252_Glorious_Minigun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun.Lasergun 3000	sources/00253_Lasergun_3000.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun.Pixel Minigun	sources/00254_Pixel_Minigun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun.Pumpkin Minigun	sources/00255_Pumpkin_Minigun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun.Shark Minigun	sources/00256_Shark_Minigun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Minigun.Wrapped Minigun	sources/00257_Wrapped_Minigun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Molotov.Campfire Stick	sources/00258_Campfire_Stick.lua	fire
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun	sources/00259_Paintball_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Boba Gun	sources/00260_Boba_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Brain Gun	sources/00261_Brain_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Glorious Paintball Gun	sources/00262_Glorious_Paintball_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Ketchup Gun	sources/00263_Ketchup_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Lemonade Gun	sources/00264_Lemonade_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Paintballoon Gun	sources/00265_Paintballoon_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Slime Gun	sources/00266_Slime_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Paintball Gun.Snowball Gun	sources/00267_Snowball_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Shotgun	sources/00268_Shotgun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Shotgun.Shotkey	sources/00269_Shotkey.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Uzi.Money Gun	sources/00270_Money_Gun.lua	gun
+Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.War Horn.Mammoth Horn	sources/00271_Mammoth_Horn.lua	ammo
+Players .NebulaHub_049.PlayerScripts.Modules.ViewportCameras	sources/00272_ViewportCameras.lua	camera
+Players .NebulaHub_049.PlayerScripts.Modules.WeaponSlot	sources/00273_WeaponSlot.lua	weapon
+Players .NebulaHub_049.PlayerScripts.Modules.WeaponStatusHandler	sources/00274_WeaponStatusHandler.lua	weapon
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule	sources/00275_CameraModule.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.BaseCamera	sources/00276_BaseCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.BaseOcclusion	sources/00277_BaseOcclusion.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.CameraUI	sources/00278_CameraUI.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.CameraUtils	sources/00279_CameraUtils.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.ClassicCamera	sources/00280_ClassicCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.Invisicam	sources/00281_Invisicam.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.LegacyCamera	sources/00282_LegacyCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.OrbitalCamera	sources/00283_OrbitalCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.Poppercam	sources/00284_Poppercam.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VRBaseCamera	sources/00285_VRBaseCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VRCamera	sources/00286_VRCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VRCameraTeleportDetector	sources/00287_VRCameraTeleportDetector.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VRCameraTeleportDetector.spec	sources/00288_VRCameraTeleportDetector_spec.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VRVehicleCamera	sources/00289_VRVehicleCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VehicleCamera	sources/00290_VehicleCamera.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraCore	sources/00291_VehicleCameraCore.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CommonUtils.CameraWrapper	sources/00292_CameraWrapper.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.CommonUtils.CameraWrapper.spec	sources/00293_CameraWrapper_spec.lua	camera
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule	sources/00294_ControlModule.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.AvatarAbilitiesInterface	sources/00295_AvatarAbilitiesInterface.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.BaseCharacterController	sources/00296_BaseCharacterController.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.ClickToMoveController	sources/00297_ClickToMoveController.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.ClickToMoveDisplay	sources/00298_ClickToMoveDisplay.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.DynamicThumbstick	sources/00299_DynamicThumbstick.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.Gamepad	sources/00300_Gamepad.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.Keyboard	sources/00301_Keyboard.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.PathDisplay	sources/00302_PathDisplay.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.TouchJump	sources/00303_TouchJump.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.TouchThumbstick	sources/00304_TouchThumbstick.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.VRNavigation	sources/00305_VRNavigation.lua	control
+Players .NebulaHub_049.PlayerScripts.PlayerModule.ControlModule.VehicleController	sources/00306_VehicleController.lua	control
+ReplicatedStorage .Modules.AnimationLibrary.EffectCallbacks.sniper_eventhorizon_reload	sources/00307_sniper_eventhorizon_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.EffectCallbacks.sniper_eventhorizon_reload_empty	sources/00308_sniper_eventhorizon_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.EffectCallbacks.wildcat_shadowwildcat_state1_reload	sources/00309_wildcat_shadowwildcat_state1_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.EffectCallbacks.wildcat_shadowwildcat_state2_reload	sources/00310_wildcat_shadowwildcat_state2_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_ak47_shoot1	sources/00311_assaultrifle_ak47_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_akey47_reload	sources/00312_assaultrifle_akey47_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_akey47_shoot1	sources/00313_assaultrifle_akey47_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_aug_reload	sources/00314_assaultrifle_aug_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_aug_shoot1	sources/00315_assaultrifle_aug_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_boneclawrifle_shoot1	sources/00316_assaultrifle_boneclawrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_gingerbreadaug_reload	sources/00317_assaultrifle_gingerbreadaug_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_gingerbreadaug_shoot1	sources/00318_assaultrifle_gingerbreadaug_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_pearlrifle_shoot1	sources/00319_assaultrifle_pearlrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_reload	sources/00320_assaultrifle_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_shoot1	sources/00321_assaultrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_tommygun_inspect	sources/00322_assaultrifle_tommygun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.assaultrifle_tommygun_inspect_empty	sources/00323_assaultrifle_tommygun_inspect_empty.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_balloonbow_reload	sources/00324_bow_balloonbow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_balloonbow_shoot1	sources/00325_bow_balloonbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_batbow_shoot1	sources/00326_bow_batbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_belovedbow_shoot1	sources/00327_bow_belovedbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_dreambow_shoot1	sources/00328_bow_dreambow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_frostbitebow_shoot1	sources/00329_bow_frostbitebow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_keybow_reload	sources/00330_bow_keybow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_keybow_shoot1	sources/00331_bow_keybow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_palmbow_shoot1	sources/00332_bow_palmbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_reload	sources/00333_bow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.bow_shoot1	sources/00334_bow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_aquaburst_shoot1	sources/00335_burstrifle_aquaburst_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_electrorifle_reload	sources/00336_burstrifle_electrorifle_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_electrorifle_shoot1	sources/00337_burstrifle_electrorifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_famas_reload	sources/00338_burstrifle_famas_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_famas_reload_empty	sources/00339_burstrifle_famas_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_famas_shoot1	sources/00340_burstrifle_famas_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_keystrifle_reload	sources/00341_burstrifle_keystrifle_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_keystrifle_shoot1	sources/00342_burstrifle_keystrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_pineburst_shoot1	sources/00343_burstrifle_pineburst_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_pixelburst_reload	sources/00344_burstrifle_pixelburst_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_pixelburst_shoot1	sources/00345_burstrifle_pixelburst_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_reload	sources/00346_burstrifle_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_sandfamas_reload	sources/00347_burstrifle_sandfamas_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_sandfamas_reload_empty	sources/00348_burstrifle_sandfamas_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_sandfamas_shoot1	sources/00349_burstrifle_sandfamas_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_shoot1	sources/00350_burstrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.burstrifle_spectralburst_shoot1	sources/00351_burstrifle_spectralburst_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_archcrossbow_reload	sources/00352_crossbow_archcrossbow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_archcrossbow_shoot1	sources/00353_crossbow_archcrossbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_campfirecrossbow_equip	sources/00354_crossbow_campfirecrossbow_equip.lua	fire
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_frostbitecrossbow_reload	sources/00355_crossbow_frostbitecrossbow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_frostbitecrossbow_shoot1	sources/00356_crossbow_frostbitecrossbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_harpooncrossbow_reload	sources/00357_crossbow_harpooncrossbow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_harpooncrossbow_shoot1	sources/00358_crossbow_harpooncrossbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_pixelcrossbow_reload	sources/00359_crossbow_pixelcrossbow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_pixelcrossbow_shoot1	sources/00360_crossbow_pixelcrossbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_reload	sources/00361_crossbow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_shoot1	sources/00362_crossbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_spidercrossbow_shoot1	sources/00363_crossbow_spidercrossbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_violincrossbow_reload	sources/00364_crossbow_violincrossbow_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.crossbow_violincrossbow_shoot1	sources/00365_crossbow_violincrossbow_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_aces_reload	sources/00366_daggers_aces_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_aces_shoot1	sources/00367_daggers_aces_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_aces_shoot2	sources/00368_daggers_aces_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_batdaggers_shoot1	sources/00369_daggers_batdaggers_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_batdaggers_shoot2	sources/00370_daggers_batdaggers_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_brokenhearts_shoot1	sources/00371_daggers_brokenhearts_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_brokenhearts_shoot2	sources/00372_daggers_brokenhearts_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_cookies_reload	sources/00373_daggers_cookies_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_crystaldaggers_reload	sources/00374_daggers_crystaldaggers_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_crystaldaggers_shoot1	sources/00375_daggers_crystaldaggers_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_crystaldaggers_shoot2	sources/00376_daggers_crystaldaggers_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_curseddaggers_reload	sources/00377_daggers_curseddaggers_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_curseddaggers_shoot1	sources/00378_daggers_curseddaggers_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_curseddaggers_shoot2	sources/00379_daggers_curseddaggers_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_keynais_reload	sources/00380_daggers_keynais_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_keynais_shoot1	sources/00381_daggers_keynais_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_keynais_shoot2	sources/00382_daggers_keynais_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_paperplanes_reload	sources/00383_daggers_paperplanes_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_reload	sources/00384_daggers_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_shoot1	sources/00385_daggers_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_shoot2	sources/00386_daggers_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_shurikens_shoot1	sources/00387_daggers_shurikens_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_shurikens_shoot2	sources/00388_daggers_shurikens_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_toaster_reload	sources/00389_daggers_toaster_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_toaster_shoot1	sources/00390_daggers_toaster_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.daggers_toaster_shoot2	sources/00391_daggers_toaster_shoot2.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.distortion_bubbledistortion_shoot1	sources/00392_distortion_bubbledistortion_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.distortion_electropunkdistortion_shoot1	sources/00393_distortion_electropunkdistortion_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.distortion_shoot1	sources/00394_distortion_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_enerkeypistols_shoot1	sources/00395_energypistols_enerkeypistols_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_hydropistols_shoot1	sources/00396_energypistols_hydropistols_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_hyperlaserguns_equip	sources/00397_energypistols_hyperlaserguns_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_shoot1	sources/00398_energypistols_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_solpistols_shoot1	sources/00399_energypistols_solpistols_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_soulpistols_shoot1	sources/00400_energypistols_soulpistols_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energypistols_voidpistols_shoot1	sources/00401_energypistols_voidpistols_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energyrifle_enerkeyrifle_shoot1	sources/00402_energyrifle_enerkeyrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energyrifle_hydrorifle_shoot1	sources/00403_energyrifle_hydrorifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energyrifle_shoot1	sources/00404_energyrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energyrifle_solrifle_shoot1	sources/00405_energyrifle_solrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energyrifle_soulrifle_shoot1	sources/00406_energyrifle_soulrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.energyrifle_voidrifle_shoot1	sources/00407_energyrifle_voidrifle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_equip	sources/00408_exogun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_inspect	sources/00409_exogun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_repulsor_equip	sources/00410_exogun_repulsor_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_repulsor_inspect	sources/00411_exogun_repulsor_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.exogun_singularity_equip	sources/00412_exogun_singularity_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_bananaflare_equip	sources/00413_flaregun_bananaflare_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_bananaflare_inspect	sources/00414_flaregun_bananaflare_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_bananaflare_inspect_rare	sources/00415_flaregun_bananaflare_inspect_rare.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_equip	sources/00416_flaregun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_equip_empty	sources/00417_flaregun_equip_empty.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_inspect	sources/00418_flaregun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_inspect_empty	sources/00419_flaregun_inspect_empty.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_pocketvolcano_idle	sources/00420_flaregun_pocketvolcano_idle.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_pocketvolcano_inspect	sources/00421_flaregun_pocketvolcano_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flaregun_wrappedflaregun_equip	sources/00422_flaregun_wrappedflaregun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flashbang_camera_lob_start	sources/00423_flashbang_camera_lob_start.lua	camera
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.flashbang_camera_throw_start	sources/00424_flashbang_camera_throw_start.lua	camera
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.freezeray_cooler_shoot1	sources/00425_freezeray_cooler_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.freezeray_shoot1	sources/00426_freezeray_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.freezeray_spiderray_shoot1	sources/00427_freezeray_spiderray_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.freezeray_temporalray_shoot1	sources/00428_freezeray_temporalray_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.glasscannon_shoot1	sources/00429_glasscannon_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grappler_webshooters_inspect	sources/00430_grappler_webshooters_inspect.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grenadelauncher_balloonlauncher_reload	sources/00431_grenadelauncher_balloonlauncher_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grenadelauncher_balloonlauncher_shoot1	sources/00432_grenadelauncher_balloonlauncher_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grenadelauncher_gearnadelauncher_reload	sources/00433_grenadelauncher_gearnadelauncher_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grenadelauncher_gearnadelauncher_shoot1	sources/00434_grenadelauncher_gearnadelauncher_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grenadelauncher_reload	sources/00435_grenadelauncher_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grenadelauncher_shoot1	sources/00436_grenadelauncher_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.grenadelauncher_skulllauncher_shoot1	sources/00437_grenadelauncher_skulllauncher_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_attack1_blade	sources/00438_gunblade_attack1_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_attack2_blade	sources/00439_gunblade_attack2_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_attack_blade_onhit	sources/00440_gunblade_attack_blade_onhit.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_attack_blade_onhit2	sources/00441_gunblade_attack_blade_onhit2.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_batblade_attack1_blade	sources/00442_gunblade_batblade_attack1_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_batblade_attack2_blade	sources/00443_gunblade_batblade_attack2_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_batblade_attack_blade_onhit	sources/00444_gunblade_batblade_attack_blade_onhit.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_batblade_attack_blade_onhit2	sources/00445_gunblade_batblade_attack_blade_onhit2.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_batblade_equip	sources/00446_gunblade_batblade_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_crudegunblade_attack1_blade	sources/00447_gunblade_crudegunblade_attack1_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_crudegunblade_attack2_blade	sources/00448_gunblade_crudegunblade_attack2_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_crudegunblade_attack_blade_onhit	sources/00449_gunblade_crudegunblade_attack_blade_onhit.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_crudegunblade_attack_blade_onhit2	sources/00450_gunblade_crudegunblade_attack_blade_onhit2.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_gunsaw_attack1_blade	sources/00451_gunblade_gunsaw_attack1_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_gunsaw_attack2_blade	sources/00452_gunblade_gunsaw_attack2_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_gunsaw_attack_blade_onhit	sources/00453_gunblade_gunsaw_attack_blade_onhit.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_gunsaw_attack_blade_onhit2	sources/00454_gunblade_gunsaw_attack_blade_onhit2.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_hypergunblade_attack1_blade	sources/00455_gunblade_hypergunblade_attack1_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_hypergunblade_attack2_blade	sources/00456_gunblade_hypergunblade_attack2_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_hypergunblade_attack_blade_onhit	sources/00457_gunblade_hypergunblade_attack_blade_onhit.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_hypergunblade_attack_blade_onhit2	sources/00458_gunblade_hypergunblade_attack_blade_onhit2.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_attack1_blade	sources/00459_gunblade_keyblade_attack1_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_attack2_blade	sources/00460_gunblade_keyblade_attack2_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_attack_blade_onhit	sources/00461_gunblade_keyblade_attack_blade_onhit.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_attack_blade_onhit2	sources/00462_gunblade_keyblade_attack_blade_onhit2.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_equip	sources/00463_gunblade_keyblade_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_equip_blade	sources/00464_gunblade_keyblade_equip_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_inspect	sources/00465_gunblade_keyblade_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_inspect_blade	sources/00466_gunblade_keyblade_inspect_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_to_blade	sources/00467_gunblade_keyblade_to_blade.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_to_gun	sources/00468_gunblade_keyblade_to_gun.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.gunblade_keyblade_to_gun2	sources/00469_gunblade_keyblade_to_gun2.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_equip	sources/00470_handgun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_handgun_inspect_rare	sources/00471_handgun_handgun_inspect_rare.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_inspect	sources/00472_handgun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pixelhandgun_equip	sources/00473_handgun_pixelhandgun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_pixelhandgun_inspect	sources/00474_handgun_pixelhandgun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_sandgun_equip	sources/00475_handgun_sandgun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.handgun_sandgun_inspect	sources/00476_handgun_sandgun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_equip	sources/00477_minigun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_fighterjet_equip	sources/00478_minigun_fighterjet_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_fighterjet_inspect	sources/00479_minigun_fighterjet_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_inspect	sources/00480_minigun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_pixelminigun_equip	sources/00481_minigun_pixelminigun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_pixelminigun_inspect	sources/00482_minigun_pixelminigun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_sharkminigun_equip	sources/00483_minigun_sharkminigun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_sharkminigun_inspect	sources/00484_minigun_sharkminigun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.minigun_wrappedminigun_equip	sources/00485_minigun_wrappedminigun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.molotov_campfirestick_equip	sources/00486_molotov_campfirestick_equip.lua	fire
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_bobagun_inspect_rare	sources/00487_paintballgun_bobagun_inspect_rare.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_inspect	sources/00488_paintballgun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.paintballgun_throw	sources/00489_paintballgun_throw.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.permafrost_permasand_reload	sources/00490_permafrost_permasand_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.permafrost_permasand_shoot1	sources/00491_permafrost_permasand_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.permafrost_reload	sources/00492_permafrost_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.permafrost_shoot1	sources/00493_permafrost_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.permafrost_starforgepermafrost_shoot1	sources/00494_permafrost_starforgepermafrost_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.permafrost_temporalpermafrost_shoot1	sources/00495_permafrost_temporalpermafrost_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_boneclawrevolver_shoot1	sources/00496_revolver_boneclawrevolver_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_cruiserevolver_reload	sources/00497_revolver_cruiserevolver_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_cruiserevolver_reload_empty	sources/00498_revolver_cruiserevolver_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_cruiserevolver_shoot1	sources/00499_revolver_cruiserevolver_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_cruiserevolver_shoot_final	sources/00500_revolver_cruiserevolver_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_deserteagle_reload	sources/00501_revolver_deserteagle_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_deserteagle_reload_empty	sources/00502_revolver_deserteagle_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_deserteagle_shoot1	sources/00503_revolver_deserteagle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_deserteagle_shoot_final	sources/00504_revolver_deserteagle_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_keyvolver_reload	sources/00505_revolver_keyvolver_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_keyvolver_reload_empty	sources/00506_revolver_keyvolver_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_keyvolver_shoot1	sources/00507_revolver_keyvolver_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_keyvolver_shoot_final	sources/00508_revolver_keyvolver_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_equip	sources/00509_revolver_peppergun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_equip_empty	sources/00510_revolver_peppergun_equip_empty.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_inspect	sources/00511_revolver_peppergun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_inspect_empty	sources/00512_revolver_peppergun_inspect_empty.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppergun_quickshot	sources/00513_revolver_peppergun_quickshot.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppermintsheriff_reload	sources/00514_revolver_peppermintsheriff_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppermintsheriff_reload_empty	sources/00515_revolver_peppermintsheriff_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_peppermintsheriff_shoot1	sources/00516_revolver_peppermintsheriff_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_reload	sources/00517_revolver_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_reload_empty	sources/00518_revolver_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_sheriff_reload	sources/00519_revolver_sheriff_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_sheriff_reload_empty	sources/00520_revolver_sheriff_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_sheriff_shoot1	sources/00521_revolver_sheriff_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.revolver_shoot1	sources/00522_revolver_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.rpg_reload	sources/00523_rpg_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.rpg_rocketlauncher_reload	sources/00524_rpg_rocketlauncher_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.rpg_rocketlauncher_shoot1	sources/00525_rpg_rocketlauncher_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.rpg_shoot1	sources/00526_rpg_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.scepter_shoot1	sources/00527_scepter_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_balloonshorty_reload	sources/00528_shorty_balloonshorty_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_balloonshorty_reload_empty	sources/00529_shorty_balloonshorty_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_balloonshorty_shoot1	sources/00530_shorty_balloonshorty_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_bubbleshorty_reload	sources/00531_shorty_bubbleshorty_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_bubbleshorty_reload_empty	sources/00532_shorty_bubbleshorty_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_bubbleshorty_shoot1	sources/00533_shorty_bubbleshorty_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_cannonshorty_shoot1	sources/00534_shorty_cannonshorty_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_demonshorty_shoot1	sources/00535_shorty_demonshorty_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_reload	sources/00536_shorty_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_reload2	sources/00537_shorty_reload2.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_reload2_empty	sources/00538_shorty_reload2_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_reload_empty	sources/00539_shorty_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shorty_shoot1	sources/00540_shorty_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_equip	sources/00541_shotgun_balloonshotgun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_inspect	sources/00542_shotgun_balloonshotgun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_balloonshotgun_inspect_rare	sources/00543_shotgun_balloonshotgun_inspect_rare.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_broomstick_equip	sources/00544_shotgun_broomstick_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_inspect	sources/00545_shotgun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_inspect_rare	sources/00546_shotgun_inspect_rare.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_equip	sources/00547_shotgun_sharkshotgun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_sharkshotgun_inspect	sources/00548_shotgun_sharkshotgun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_equip	sources/00549_shotgun_shotkey_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_inspect	sources/00550_shotgun_shotkey_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_shotkey_inspect_empty	sources/00551_shotgun_shotkey_inspect_empty.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.shotgun_wrappedshotgun_equip	sources/00552_shotgun_wrappedshotgun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.slingshot_harp_shoot1	sources/00553_slingshot_harp_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.slingshot_keyshot_shoot1	sources/00554_slingshot_keyshot_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.slingshot_palmshot_shoot1	sources/00555_slingshot_palmshot_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.slingshot_shoot1	sources/00556_slingshot_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.slingshot_slingshotula_shoot1	sources/00557_slingshot_slingshotula_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_campfiresniper_equip	sources/00558_sniper_campfiresniper_equip.lua	fire
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_campfiresniper_inspect	sources/00559_sniper_campfiresniper_inspect.lua	fire
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_eventhorizon_reload	sources/00560_sniper_eventhorizon_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_eventhorizon_reload_empty	sources/00561_sniper_eventhorizon_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_eventhorizon_shoot1	sources/00562_sniper_eventhorizon_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_eyethingsniper_shoot1	sources/00563_sniper_eyethingsniper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_gingerbreadsniper_shoot1	sources/00564_sniper_gingerbreadsniper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_hypersniper_shoot1	sources/00565_sniper_hypersniper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_keyper_shoot1	sources/00566_sniper_keyper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_krakensniper_reload	sources/00567_sniper_krakensniper_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_krakensniper_reload_empty	sources/00568_sniper_krakensniper_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_krakensniper_shoot1	sources/00569_sniper_krakensniper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_lightfifty_reload	sources/00570_sniper_lightfifty_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_lightfifty_reload_empty	sources/00571_sniper_lightfifty_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_lightfifty_shoot1	sources/00572_sniper_lightfifty_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_pixelsniper_reload	sources/00573_sniper_pixelsniper_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_pixelsniper_reload_empty	sources/00574_sniper_pixelsniper_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_pixelsniper_shoot1	sources/00575_sniper_pixelsniper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_reload	sources/00576_sniper_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_reload_empty	sources/00577_sniper_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.sniper_shoot1	sources/00578_sniper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_boneclawspray_shoot1	sources/00579_spray_boneclawspray_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_boneclawspray_shoot_final	sources/00580_spray_boneclawspray_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_campfirespray_equip	sources/00581_spray_campfirespray_equip.lua	fire
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_campfirespray_inspect	sources/00582_spray_campfirespray_inspect.lua	fire
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_keyspray_reload	sources/00583_spray_keyspray_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_keyspray_reload_empty	sources/00584_spray_keyspray_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_keyspray_shoot1	sources/00585_spray_keyspray_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_keyspray_shoot_final	sources/00586_spray_keyspray_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_pinespray_shoot1	sources/00587_spray_pinespray_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_pinespray_shoot_final	sources/00588_spray_pinespray_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_reload	sources/00589_spray_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_reload_empty	sources/00590_spray_reload_empty.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_shoot1	sources/00591_spray_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_shoot_final	sources/00592_spray_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_spraybottle_shoot1	sources/00593_spray_spraybottle_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.spray_spraybottle_shoot_final	sources/00594_spray_spraybottle_shoot_final.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_demonuzi_shoot1	sources/00595_uzi_demonuzi_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_duckyuzi_shoot1	sources/00596_uzi_duckyuzi_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_electrouzi_reload	sources/00597_uzi_electrouzi_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_electrouzi_shoot1	sources/00598_uzi_electrouzi_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_keyzi_reload	sources/00599_uzi_keyzi_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_keyzi_shoot1	sources/00600_uzi_keyzi_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_moneygun_equip	sources/00601_uzi_moneygun_equip.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_moneygun_inspect	sources/00602_uzi_moneygun_inspect.lua	gun
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_pineuzi_shoot1	sources/00603_uzi_pineuzi_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_reload	sources/00604_uzi_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_shoot1	sources/00605_uzi_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.uzi_wateruzi_shoot1	sources/00606_uzi_wateruzi_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.warhorn_mammothhorn_use	sources/00607_warhorn_mammothhorn_use.lua	ammo
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.warper_arcanewarper_shoot1	sources/00608_warper_arcanewarper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.warper_bubbler_shoot1	sources/00609_warper_bubbler_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.warper_electropunkwarper_shoot1	sources/00610_warper_electropunkwarper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.warper_hotelbell_shoot1	sources/00611_warper_hotelbell_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.warper_shoot1	sources/00612_warper_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_plasmawildcat_state1_shoot1	sources/00613_wildcat_plasmawildcat_state1_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_plasmawildcat_state2_shoot1	sources/00614_wildcat_plasmawildcat_state2_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_shadowwildcat_state1_reload	sources/00615_wildcat_shadowwildcat_state1_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_shadowwildcat_state1_shoot1	sources/00616_wildcat_shadowwildcat_state1_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_shadowwildcat_state2_reload	sources/00617_wildcat_shadowwildcat_state2_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_shadowwildcat_state2_shoot1	sources/00618_wildcat_shadowwildcat_state2_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_state1_reload	sources/00619_wildcat_state1_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_state1_shoot1	sources/00620_wildcat_state1_shoot1.lua	shoot
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_state2_reload	sources/00621_wildcat_state2_reload.lua	reload
+ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.wildcat_state2_shoot1	sources/00622_wildcat_state2_shoot1.lua	shoot
+ReplicatedStorage .Modules.Emotes.Giant Camera	sources/00623_Giant_Camera.lua	camera
+ReplicatedStorage .Modules.Finishers.Firework Show	sources/00624_Firework_Show.lua	fire
+ReplicatedStorage .Modules.InputLibrary	sources/00625_InputLibrary.lua	input
+ReplicatedStorage .Modules.SettingsInfo	sources/00626_SettingsInfo.lua	setting
+ReplicatedStorage .Modules.SettingsLibrary	sources/00627_SettingsLibrary.lua	setting
+StarterPlayer.StarterPlayerScripts.Controllers.ArcadeController	sources/00628_ArcadeController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.AudioController	sources/00629_AudioController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.BirthdayController	sources/00630_BirthdayController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.ChattingController	sources/00631_ChattingController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.ComplianceController	sources/00632_ComplianceController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.ControlsController	sources/00633_ControlsController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.CoreGuiController	sources/00634_CoreGuiController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.DebugController	sources/00635_DebugController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.DebugController.DebugState	sources/00636_DebugState.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.DuelController	sources/00637_DuelController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.EmoteController	sources/00638_EmoteController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.EmoteController.EmoteRenderLogic	sources/00639_EmoteRenderLogic.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.EmoteController.EmoteSoundLogic	sources/00640_EmoteSoundLogic.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.EnemyController	sources/00641_EnemyController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.EntityController	sources/00642_EntityController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.EventController	sources/00643_EventController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.FFlagController	sources/00644_FFlagController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.FighterController	sources/00645_FighterController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.FunctionsController	sources/00646_FunctionsController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.GameComponentsController	sources/00647_GameComponentsController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.LeaderboardController	sources/00648_LeaderboardController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.LightingController	sources/00649_LightingController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.LobbyController	sources/00650_LobbyController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.MatchmakingController	sources/00651_MatchmakingController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.MechanicsController	sources/00652_MechanicsController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.MiscellaneousController	sources/00653_MiscellaneousController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.MobileController	sources/00654_MobileController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.MonetizationController	sources/00655_MonetizationController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.MusicController	sources/00656_MusicController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.PartyController	sources/00657_PartyController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.PlayerDataController	sources/00658_PlayerDataController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.PlayerInteractionController	sources/00659_PlayerInteractionController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.PrivateServerController	sources/00660_PrivateServerController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.ProximityPromptController	sources/00661_ProximityPromptController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.QueuePadController	sources/00662_QueuePadController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.ScavengerHuntController	sources/00663_ScavengerHuntController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.SeasonController	sources/00664_SeasonController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.ShadyChickenController	sources/00665_ShadyChickenController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.ShopController	sources/00666_ShopController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.SocialController	sources/00667_SocialController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.SpectateController	sources/00668_SpectateController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.TestingController	sources/00669_TestingController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.TightropeController	sources/00670_TightropeController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.TimerController	sources/00671_TimerController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.UserInterfaceController	sources/00672_UserInterfaceController.lua	control
+StarterPlayer.StarterPlayerScripts.Controllers.WrapController	sources/00673_WrapController.lua	control
+StarterPlayer.StarterPlayerScripts.Modules.CameraSecurity	sources/00674_CameraSecurity.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.CameraShaker	sources/00675_CameraShaker.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.CameraShaker.CameraShakeInstance	sources/00676_CameraShakeInstance.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.CameraShaker.CameraShakePresets	sources/00677_CameraShakePresets.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.Functions.ClaimCheckpoint	sources/00678_ClaimCheckpoint.lua	aim
+StarterPlayer.StarterPlayerScripts.Modules.Functions.PlayPreloadedAnimation	sources/00679_PlayPreloadedAnimation.lua	reload
+StarterPlayer.StarterPlayerScripts.Modules.GameComponents.FireHitboxes	sources/00680_FireHitboxes.lua	fire
+StarterPlayer.StarterPlayerScripts.Modules.GameComponents.UIInputFrames	sources/00681_UIInputFrames.lua	input
+StarterPlayer.StarterPlayerScripts.Modules.ItemTypes.Gun	sources/00682_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.Items.Exogun	sources/00683_Exogun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.Items.Gunblade	sources/00684_Gunblade.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.Items.Minigun	sources/00685_Minigun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.Items.Paintball Gun	sources/00686_Paintball_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.LightingProfiles.Shooting Range	sources/00687_Shooting_Range.lua	shoot
+StarterPlayer.StarterPlayerScripts.Modules.LobbyElements.LooseWeaponDisplays	sources/00688_LooseWeaponDisplays.lua	weapon
+StarterPlayer.StarterPlayerScripts.Modules.LobbyElements.WeaponReleaseSchedule	sources/00689_WeaponReleaseSchedule.lua	weapon
+StarterPlayer.StarterPlayerScripts.Modules.LooseWeaponDisplay	sources/00690_LooseWeaponDisplay.lua	weapon
+StarterPlayer.StarterPlayerScripts.Modules.Pages.PickWeapons	sources/00691_PickWeapons.lua	weapon
+StarterPlayer.StarterPlayerScripts.Modules.Pages.PickWeaponsList	sources/00692_PickWeaponsList.lua	weapon
+StarterPlayer.StarterPlayerScripts.Modules.Pages.PrivateServerControls	sources/00693_PrivateServerControls.lua	control
+StarterPlayer.StarterPlayerScripts.Modules.Pages.Settings	sources/00694_Settings.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Pages.Settings.Inspect	sources/00695_Inspect.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Pages.Settings.List	sources/00696_List.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Pages.Settings.Profiles	sources/00697_Profiles.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Pages.Settings.Tabs	sources/00698_Tabs.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.PatchNotes.Weapons	sources/00699_Weapons.lua	weapon
+StarterPlayer.StarterPlayerScripts.Modules.ReplicatedController	sources/00700_ReplicatedController.lua	control
+StarterPlayer.StarterPlayerScripts.Modules.SettingSlot	sources/00701_SettingSlot.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Settings.Color	sources/00702_Color.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Settings.Confirm	sources/00703_Confirm.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Settings.Divider	sources/00704_Divider.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Settings.Dropdown	sources/00705_Dropdown.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Settings.Hotkey	sources/00706_Hotkey.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Settings.Slider	sources/00707_Slider.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.Settings.Toggle	sources/00708_Toggle.lua	setting
+StarterPlayer.StarterPlayerScripts.Modules.ShootingRangeDisplay	sources/00709_ShootingRangeDisplay.lua	shoot
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.Equipment.Camera	sources/00710_Camera.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.Equipment.SpinControls	sources/00711_SpinControls.lua	control
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.MobileInputs	sources/00712_MobileInputs.lua	input
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.MobileInputs.Buttons	sources/00713_Buttons.lua	input
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.MobileInputs.Buttons.MobileButton	sources/00714_MobileButton.lua	input
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.MobileInputs.DoubleTap	sources/00715_DoubleTap.lua	input
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.MobileInputs.EditorLogic	sources/00716_EditorLogic.lua	input
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.MobileInputs.Joystick	sources/00717_Joystick.lua	input
+StarterPlayer.StarterPlayerScripts.Modules.UserInterface.SwitchCameraPOV	sources/00718_SwitchCameraPOV.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Assault Rifle.Drum Gun	sources/00719_Drum_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseCrossbow.Campfire Crossbow	sources/00720_Campfire_Crossbow.lua	fire
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun	sources/00721_BaseFlareGun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Banana Flare	sources/00722_Banana_Flare.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun	sources/00723_Flare_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Dynamite Gun	sources/00724_Dynamite_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Glorious Flare Gun	sources/00725_Glorious_Flare_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Vexed Flare Gun	sources/00726_Vexed_Flare_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Flare Gun.Wrapped Flare Gun	sources/00727_Wrapped_Flare_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseFlareGun.Pocket Volcano	sources/00728_Pocket_Volcano.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseRPG.Firework Launcher	sources/00729_Firework_Launcher.lua	fire
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.BaseRevolver.Peppergun	sources/00730_Peppergun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Energy Pistols.Hyperlaser Guns	sources/00731_Hyperlaser_Guns.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun	sources/00732_Exogun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Exogourd	sources/00733_Exogourd.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Glorious Exogun	sources/00734_Glorious_Exogun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Midnight Festive Exogun	sources/00735_Midnight_Festive_Exogun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Pearl Exogun	sources/00736_Pearl_Exogun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Ray Gun	sources/00737_Ray_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Repulsor	sources/00738_Repulsor.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Singularity	sources/00739_Singularity.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Exogun.Wondergun	sources/00740_Wondergun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Flashbang.Camera	sources/00741_Camera.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Grappler.Web Shooters	sources/00742_Web_Shooters.lua	shoot
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Gunblade	sources/00743_Gunblade.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Gunblade.Batblade	sources/00744_Batblade.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Gunblade.Boneblade	sources/00745_Boneblade.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Gunblade.Gunsaw	sources/00746_Gunsaw.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Gunblade.Keyblade	sources/00747_Keyblade.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Handgun	sources/00748_Handgun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Handgun.Blaster	sources/00749_Blaster.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Handgun.Gumball Handgun	sources/00750_Gumball_Handgun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Handgun.Hand Gun	sources/00751_Hand_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Handgun.Sandgun	sources/00752_Sandgun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun	sources/00753_Minigun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun.Fighter Jet	sources/00754_Fighter_Jet.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun.Glorious Minigun	sources/00755_Glorious_Minigun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun.Lasergun 3000	sources/00756_Lasergun_3000.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun.Pixel Minigun	sources/00757_Pixel_Minigun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun.Pumpkin Minigun	sources/00758_Pumpkin_Minigun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun.Shark Minigun	sources/00759_Shark_Minigun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Minigun.Wrapped Minigun	sources/00760_Wrapped_Minigun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Molotov.Campfire Stick	sources/00761_Campfire_Stick.lua	fire
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun	sources/00762_Paintball_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Boba Gun	sources/00763_Boba_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Brain Gun	sources/00764_Brain_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Glorious Paintball Gun	sources/00765_Glorious_Paintball_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Ketchup Gun	sources/00766_Ketchup_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Lemonade Gun	sources/00767_Lemonade_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Paintballoon Gun	sources/00768_Paintballoon_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Slime Gun	sources/00769_Slime_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Paintball Gun.Snowball Gun	sources/00770_Snowball_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Shotgun	sources/00771_Shotgun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Shotgun.Shotkey	sources/00772_Shotkey.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.Uzi.Money Gun	sources/00773_Money_Gun.lua	gun
+StarterPlayer.StarterPlayerScripts.Modules.ViewModels.War Horn.Mammoth Horn	sources/00774_Mammoth_Horn.lua	ammo
+StarterPlayer.StarterPlayerScripts.Modules.ViewportCameras	sources/00775_ViewportCameras.lua	camera
+StarterPlayer.StarterPlayerScripts.Modules.WeaponSlot	sources/00776_WeaponSlot.lua	weapon
+StarterPlayer.StarterPlayerScripts.Modules.WeaponStatusHandler	sources/00777_WeaponStatusHandler.lua	weapon
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule	sources/00778_CameraModule.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseCamera	sources/00779_BaseCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseOcclusion	sources/00780_BaseOcclusion.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUI	sources/00781_CameraUI.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUtils	sources/00782_CameraUtils.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ClassicCamera	sources/00783_ClassicCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Invisicam	sources/00784_Invisicam.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.LegacyCamera	sources/00785_LegacyCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.OrbitalCamera	sources/00786_OrbitalCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Poppercam	sources/00787_Poppercam.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRBaseCamera	sources/00788_VRBaseCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCamera	sources/00789_VRCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCameraTeleportDetector	sources/00790_VRCameraTeleportDetector.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCameraTeleportDetector.spec	sources/00791_VRCameraTeleportDetector_spec.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCamera	sources/00792_VRVehicleCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera	sources/00793_VehicleCamera.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraCore	sources/00794_VehicleCameraCore.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper	sources/00795_CameraWrapper.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper.spec	sources/00796_CameraWrapper_spec.lua	camera
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule	sources/00797_ControlModule.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.AvatarAbilitiesInterface	sources/00798_AvatarAbilitiesInterface.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.BaseCharacterController	sources/00799_BaseCharacterController.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveController	sources/00800_ClickToMoveController.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveDisplay	sources/00801_ClickToMoveDisplay.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DynamicThumbstick	sources/00802_DynamicThumbstick.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Gamepad	sources/00803_Gamepad.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Keyboard	sources/00804_Keyboard.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.PathDisplay	sources/00805_PathDisplay.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchJump	sources/00806_TouchJump.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchThumbstick	sources/00807_TouchThumbstick.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VRNavigation	sources/00808_VRNavigation.lua	control
+StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VehicleController	sources/00809_VehicleController.lua	control

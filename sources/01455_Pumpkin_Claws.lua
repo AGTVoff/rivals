@@ -1,0 +1,22 @@
+-- Instance: Players .NebulaHub_049.PlayerScripts.Modules.ViewModels.Fists.Pumpkin Claws
+-- Class: ModuleScript
+-- Decompiled with Potassium's decompiler.
+
+local Players = game:GetService("Players");
+local Fists = require(Players.LocalPlayer.PlayerScripts.Modules.ViewModels.Fists);
+local u1 = setmetatable({}, Fists);
+u1.__index = u1;
+
+function u1.new(...) -- Line: 8
+    -- upvalues: Fists (copy), u1 (copy)
+    local v2 = Fists.new(...);
+    local v3 = setmetatable(v2, u1);
+    v3:_Init();
+
+    return v3;
+end;
+
+function u1._Init(p4) -- Line: 26
+end;
+
+return u1;

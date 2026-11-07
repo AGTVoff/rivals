@@ -1,0 +1,9 @@
+-- Instance: ReplicatedStorage .Modules.AnimationLibrary.SoundCallbacks.battleaxe_spinattack
+-- Class: ModuleScript
+-- Decompiled with Potassium's decompiler.
+
+return function(p1, p2, p3) -- Line: 1
+    p1:CreateSound("rbxassetid://124941279780653", 1, 1 + 0.1 * math.random(), true, 5):SetAttribute("DontClearSound", true);
+    p1:CreateSound("rbxassetid://125852790214228", 1, 1 + 0.1 * math.random(), true, 5):SetAttribute("DontClearSound", true);
+    p1:CreateSound("rbxassetid://124261472912756", 1, 1 + 0.1 * math.random(), true, 5):SetAttribute("DontClearSound", true);
+end;
